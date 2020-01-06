@@ -40,9 +40,7 @@ TOR.RenewIp = () => {
 Output
 ```
 Actual ip is: 195.176.3.24
-index.js:30
 RenewIP: Tor session successfully renewed!!
-index.js:32
 Actual ip is: 142.44.246.156
 ```
 
