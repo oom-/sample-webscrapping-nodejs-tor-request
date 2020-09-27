@@ -49,7 +49,7 @@ Actual ip is: 142.44.246.156
 
 You need to enable the Tor ControlPort if you want to programmatically refresh the Tor session (i.e., get a new proxy IP address) without restarting your Tor client.
 
-Configure tor by editing the torrc file usually located at /etc/tor/torrc, /lib/etc/tor/torrc, ~/.torrc or /usr/local/etc/tor/torrc - Alternatively you can supply the path yourself with the --default-torrc PATH command line argument. See Tor Command-Line Options
+Configure tor by editing the torrc file usually located at /etc/tor/torrc, /lib/etc/tor/torrc, ~/.torrc or /usr/local/etc/tor/torrc - Alternatively you can supply the path yourself with the `--defaults-torrc ${PATH}` command line argument. See Tor Command-Line Options
 
 Generate the hash password for the torrc file by running tor --hash-password SECRETPASSWORD.
 
